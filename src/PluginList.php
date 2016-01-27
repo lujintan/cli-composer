@@ -14,7 +14,8 @@ use clicomposer\plugin_api\PluginClass;
 class PluginList implements \Iterator
 {
     private $invalid_name = array(
-        'plugin'
+        'version',
+        'help'
     );
     private $plugins;
 
