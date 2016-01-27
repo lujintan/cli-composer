@@ -1,0 +1,23 @@
+{
+    "name": "jintanlu/cli-composer",
+    "description": "collect all your cli by one command line toolkit",
+    "type": "library",
+    "keywords": ["console", "cli", "toolkit"],
+    "homepage": "https://github.com/lujintan/cli-composer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LuJintan",
+            "email": "yingxuetan@163.com"
+        }
+    ],
+    "require": {
+        "php": ">= 5.5.0",
+        "wp-cli/php-cli-tools": "0.11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "clicomposer\\": "src/"
+        }
+    }
+}
