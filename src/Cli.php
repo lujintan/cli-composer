@@ -23,11 +23,6 @@ class Cli
 
         $this->arguments = new Arguments();
 
-        $this->arguments->addOption('plugin', array(
-            'default'     => '--help',
-            'description' => '插件管理',
-        ));
-
         foreach ($this->plugins as $plugin) {
             $this->arguments->addOption($plugin->getNamespace(), array(
                 'default'     => '--help',
