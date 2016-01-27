@@ -1,6 +1,7 @@
 {
     "name": "jintanlu/cli-composer",
     "description": "collect all your cli by one command line toolkit",
+    "version": "0.1.0",
     "type": "library",
     "keywords": ["console", "cli", "toolkit"],
     "homepage": "https://github.com/lujintan/cli-composer",
